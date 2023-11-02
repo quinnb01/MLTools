@@ -21,7 +21,7 @@ aInputy = aSampleData[:,8]
 
 kModel = Sequential()
 kModel.add(Dense(12, input_shape=(8,), activation='relu')) # There are 12 nodes with 8 variables.
-kModel.add(Dense(8, activation='relu'))
+#kModel.add(Dense(8, activation='relu'))
 kModel.add(Dense(1, activation='sigmoid')) # In total there are 3 layers
 
 # Compile the Keras model. binary_crossentropy is used as the loss model
